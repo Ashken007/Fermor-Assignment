@@ -104,13 +104,13 @@ Make sure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Ashken007/Fermor-Assignment.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd fermor-frontend-assignment
+cd Fermor-Assignment
 ```
 
 Install dependencies:

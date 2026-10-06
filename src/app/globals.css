@@ -1,26 +1,82 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #FAF9F5;
+    --foreground: #111827;
+    --card: #FFFFFF;
+    --card-foreground: #111827;
+    --border: #E5E7EB;
+    --primary-green: #059669;
+    --primary-green-hover: #047857;
+    --primary-green-light: #ECFDF5;
+    --primary-green-border: #A7F3D0;
+    --muted: #6B7280;
+    --muted-light: #9CA3AF;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #FAF9F5;
+    color: #111827;
+    overflow-x: hidden;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom Utilities for Premium Financial UI */
+.bg-warm-canvas {
+  background-color: #FAF9F5;
+}
+
+.bg-glass {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+}
+
+.border-subtle {
+  border-color: #E5E7EB;
+}
+
+.shadow-card {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 4px 12px 0 rgba(0, 0, 0, 0.03);
+}
+
+.shadow-card-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.shadow-card-hover:hover {
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.06), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+}
+
+.shadow-green-glow {
+  box-shadow: 0 4px 20px -2px rgba(5, 150, 105, 0.18);
+}
+
+/* Range input custom slider styling */
+input[type="range"] {
+  accent-color: #059669;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
 }

@@ -59,7 +59,7 @@ export default function FinalCTA({ onGetStarted, onTryCalculator }: FinalCTAProp
         {/* Audit Item 3 & 7: Clean grounded security & clarity tags */}
         <div className="mt-12 flex flex-wrap items-center justify-center gap-6 text-xs text-[#9CA3AF]">
           <span className="flex items-center gap-1.5">
-            <ShieldCheck className="w-4 h-4 text-[#10B981]" /> Secure & private
+            <ShieldCheck className="w-4 h-4 text-[#10B981]" /> Interactive financial planning
           </span>
           <span className="flex items-center gap-1.5">
             <ShieldCheck className="w-4 h-4 text-[#10B981]" /> Free calculation tools

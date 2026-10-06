@@ -143,11 +143,11 @@ export default function Footer() {
         {/* Educational Disclaimer & Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#6B7280]">
           <p className="max-w-2xl leading-relaxed">
-            * Disclaimer: All calculations, projections, and scenarios shown are for educational and financial planning demonstration purposes. Past market returns are not indicative of future results.
+            * Disclaimer: All calculations, projections, and scenarios shown are for illustrative and financial planning demonstration purposes only and do not constitute financial advice. Actual investment returns may vary.
           </p>
 
           <div className="text-right shrink-0">
-            <div>© 2026 FERMOR Technologies Pvt. Ltd.</div>
+            <div>© 2026 Fermor — Frontend Assignment</div>
             <div className="text-[11px] text-[#9CA3AF] mt-0.5">All rights reserved.</div>
           </div>
         </div>

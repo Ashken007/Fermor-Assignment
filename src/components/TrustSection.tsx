@@ -8,22 +8,22 @@ export default function TrustSection() {
     {
       icon: Scale,
       title: "Transparent calculations",
-      desc: "Every recommendation shows full mathematical formulas, CAGR rates, tax deductions, and compounding logic. Zero black-box predictions.",
+      desc: "Every recommendation shows clear mathematical formulas, CAGR rates, and compounding logic. Zero black-box predictions.",
     },
     {
       icon: Cpu,
       title: "Clear methodology",
-      desc: "Grounded in historical Indian market performance (Nifty 50 15-Yr CAGR) and realistic CPI inflation adjustments.",
+      desc: "Interactive scenarios to explore compounding growth rates and inflation impact.",
     },
     {
       icon: ShieldCheck,
       title: "Built for Indian financial decisions",
-      desc: "Deep integration with Indian tax slabs (New vs Old), Section 80C, ELSS, HRA exemptions, and EPF/NPS rules.",
+      desc: "Designed around common Indian financial planning frameworks and investment concepts.",
     },
     {
       icon: Lock,
       title: "Simple, understandable financial tools",
-      desc: "Designed for extreme cognitive clarity. Zero financial jargon clutter or pushy marketing sales pitches.",
+      desc: "Designed for clarity. Zero financial jargon clutter or pushy marketing pitches.",
     },
   ];
 
@@ -35,13 +35,13 @@ export default function TrustSection() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FAF9F5] border border-[#E5E7EB] text-xs font-semibold text-[#059669] mb-4">
             <ShieldCheck className="w-3.5 h-3.5" />
-            Uncompromising Standards
+            Product Principles
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#111827] font-serif mb-4">
             Your money deserves clarity.
           </h2>
           <p className="text-lg text-[#4B5563]">
-            We built Fermor on the principle that financial products should earn your trust through open math, clean UI, and complete alignment with your goals.
+            We built Fermor on the principle that financial tools should earn your trust through open math, clean UI, and complete alignment with your goals.
           </p>
         </div>
 
@@ -66,7 +66,7 @@ export default function TrustSection() {
                   </p>
                 </div>
                 <div className="mt-6 pt-4 border-t border-[#E5E7EB] flex items-center gap-1.5 text-xs text-[#059669] font-semibold">
-                  <CheckCircle2 className="w-3.5 h-3.5" /> Verified Standard
+                  <CheckCircle2 className="w-3.5 h-3.5" /> Design Principle
                 </div>
               </div>
             );

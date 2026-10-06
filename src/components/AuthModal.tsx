@@ -226,7 +226,7 @@ export default function AuthModal({ isOpen, initialMode = "signup", onClose }: A
 
             <div className="mt-6 pt-4 border-t border-[#E5E7EB] text-center text-xs text-[#6B7280] flex items-center justify-center gap-1.5">
               <Lock className="w-3.5 h-3.5 text-[#059669]" />
-              Secure & private
+              Frontend Demo — Illustrative Preview
             </div>
           </div>
         )}
